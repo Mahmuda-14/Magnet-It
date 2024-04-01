@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "comments": "Great service! I highly recommend this product.We started working with this digital agency about a year ago on our SEO campaign, and now book marketing and training. Their insights have been invaluable to our marketing function and our online business. With agency’s help, our rankings have gone from good",
+        "image": "https://i.ibb.co/L8LpXPf/r1.webp",
+        "pos":"VP of Engineering"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "comments": "Excellent experience. Will definitely come back again.We started working with this digital agency about a year ago on our SEO campaign, and now book marketing and training. Their insights have been invaluable to our marketing function and our online business. With agency’s help, our rankings have gone from good",
+        "image": "https://i.ibb.co/SnXG15T/r1.webp",
+        "pos":"Research Project Manager"
+    },
+    {
+        "id":3 ,
+        "name": "Mike Johnson",
+        "comments": "The quality exceeded my expectations. Thank you!We started working with this digital agency about a year ago on our SEO campaign, and now book marketing and training. Their insights have been invaluable to our marketing function and our online business. With agency’s help, our rankings have gone from good",
+        "image": "https://i.ibb.co/HnR2pW8/r1.webp",
+        "pos":"Finance & Operations Director"
+    },
+    {
+        "id":4 ,
+        "name": "Emily Brown",
+        "comments": "Fast delivery and great customer service.We started working with this digital agency about a year ago on our SEO campaign, and now book marketing and training. Their insights have been invaluable to our marketing function and our online business. With agency’s help, our rankings have gone from good",
+        "image": "https://i.ibb.co/x1vbwYV/r1.webp",
+        "pos":"Computational Design Specialist"
+    },
+    {
+        "id":5 ,
+        "name": "David Wilson",
+        "comments": "Fantastic product. Very satisfied with my purchase.We started working with this digital agency about a year ago on our SEO campaign, and now book marketing and training. Their insights have been invaluable to our marketing function and our online business. With agency’s help, our rankings have gone from good",
+        "image": "https://i.ibb.co/5M4ZDk0/r1.webp",
+        "pos":"Department Head"
+    },
+    {
+        "id":6 ,
+        "name": "Sarah Martinez",
+        "comments": "Impressed with the professionalism and quality.We started working with this digital agency about a year ago on our SEO campaign, and now book marketing and training. Their insights have been invaluable to our marketing function and our online business. With agency’s help, our rankings have gone from good",
+        "image": "https://i.ibb.co/RTqMGXy/r1.webp",
+        "pos":"CEO & Founder"
+    }
+]

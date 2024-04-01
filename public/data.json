@@ -1,0 +1,39 @@
+[
+    {
+      "id":1,
+      "name": "Custom Software Development",
+      "description": "Create complex enterprise software, ensure reliable software integration, modernise your legacy system.",
+      "img": "https://i.ibb.co/4tqFJt7/server2.png"
+    },
+    {
+      "id":2,
+      "name": "Mobile App Development",
+      "description": "Create an impactful mobile app that fits your brand and industry within a shorter time frame.",
+      "img": "https://i.ibb.co/bF5H3bc/app.png"
+    },
+    {
+      "id":3,
+      "name": "AI Software Development",
+      "description": "We develop bespoke models by utilising our years of expertise in Artificial Intelligence and Machine Learning.",
+      "img": "https://i.ibb.co/tpNc7Mt/training.png"
+    },
+    {
+      "id":4,
+      "name": "Systems Integration ",
+      "description": "Trust our top minds to eliminate workflow pain points and integrate multiple systems using APIs, middleware or direct database integration.",
+      "img": "https://i.ibb.co/HX6Bhh2/programmer.png"
+    },
+    {
+      "id":5,
+      "name": "Cloud Implementation",
+      "description": "We deliver mission-critical, core business solutions in the cloud. After assessing your goals, we’ll work with you to define the right cloud solution for your business.",
+      "img": "https://i.ibb.co/h7CX18b/website.png"
+    },
+    {
+      "id":6,
+      "name": "Dedicated Remote Teams",
+      "description": "Our decade long expertise in providing right tech talent enables us to build efficient and scalable software development team.",
+      "img": "https://i.ibb.co/ph2CkpK/document.png"
+    }
+  ]
+ 
