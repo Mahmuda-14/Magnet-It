@@ -7,7 +7,7 @@ const Product = () => {
     return (
         <div id='product' className='h-[105vh]'>
             <h2 className='text-center text-4xl font-bold p-9 mt-[8rem] mb-[12.5rem]'>Recent<span className="text-blue-800"> Developed</span>  Products</h2>
-            <div className="grid grid-cols-2 gap-8 mx-auto max-w-screen-2xl">
+            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mx-auto max-w-screen-2xl">
                
                 <div className="">
                     <div className="card cardProduct   ">
@@ -21,7 +21,7 @@ const Product = () => {
                 </div>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mr-[113px]">
+                <div className="grid md:grid-cols-1 lg:grid-cols-1  gap-2 mr-[113px]">
                     
                     <div className="card cardProduct34 -left-[52px]">
                         <img src={p2} alt="Shoes" />

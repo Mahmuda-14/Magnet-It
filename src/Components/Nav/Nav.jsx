@@ -2,9 +2,6 @@
 import { useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import img from '../../../public/Logo3.png';
-// import { Link } from "react-router-dom";
-// import './Nav.css';
-// import './link'
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 const Nav = () => {
@@ -13,11 +10,11 @@ const Nav = () => {
     const offset = window.scrollY;
 
     if (offset > 50) {
-      navbar.style.backgroundColor = 'rgba(88, 86, 119, 0.8)'; // Add transparency
-      navbar.style.backdropFilter = 'blur(8px)  '; // Apply backdrop blur
+      navbar.style.backgroundColor = 'rgba(88, 86, 119, 0.8)';
+      navbar.style.backdropFilter = 'blur(8px)  '; 
     } else {
       navbar.style.backgroundColor = 'transparent';
-      navbar.style.backdropFilter = 'none'; // Remove backdrop blur
+      navbar.style.backdropFilter = 'none'; 
     }
   };
 
@@ -71,12 +68,12 @@ return (
     <div className="navbar  h-[70px] fixed z-10">
       <div className="navbar-start">
         <div className="dropdown ">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost bg-white lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-500 rounded-box w-52">
             {nav}
           </ul>
         </div>

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   content: [
     "./index.html",
@@ -10,6 +11,9 @@ export default {
       sans: ['Nunito', 'sans-serif'],
       // serif: ['Merriweather', 'serif'],
     },
+    screens: {
+      'xs': '200px',
+      ...defaultTheme.screens},
     
   },
   plugins: [require("daisyui")],

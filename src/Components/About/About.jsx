@@ -21,7 +21,7 @@ const About = () => {
                     <p className=" ml-12">MAGNET IT is a premier provider of software development and testing services. Having talented software engineers on board, we craft compelling web, desktop, and mobile applications for our clients. Since our inception, we have partnered with numerous companies and delivered operational gains to startup, emerging, and established  organizations in the United States</p>
 
                 </div>
-                <div className="flex flex-row justify-around mx-32  ">
+                <div className="flex sm:flex-col md:flex-col lg:flex-row sm:gap-7 justify-around mx-32  ">
                     <div>
                         {/* <h2 className=' text-center text-3xl font-bold p-9 mt-[5.25rem] mb-5'>OUR TEAM</h2> */}
                         <div className="w-[293px] h-[320px] rounded-xl bg-base-100 shadow-xl">

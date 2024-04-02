@@ -16,7 +16,7 @@ const Service = () => {
        <div id="service">
         <h2 className=' text-center text-4xl font-bold p-9 my-5'>Software<span className=" text-blue-800"> Development</span>  Services</h2>
      
-         <div className='grid grid-cols-3 mx-w-[95rem] mx-24 gap-6'>
+         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-w-[95rem] mx-24 gap-6'>
             
             {
                 service.map(item => (

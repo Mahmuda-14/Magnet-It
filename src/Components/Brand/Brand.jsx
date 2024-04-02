@@ -15,7 +15,7 @@ const Brand = () => {
             // polygon(99.93% 722px, 9px 74.30%, 0% 643px, 0px 0px, 100% 0px)
         }}>
             <h2 className='pb-4  text-slate-300 text-xl'>TRUSTED BY ----</h2>
-            <div className="grid grid-cols-6  ml-[17.8rem] mr-[12.75rem] " >
+            <div className="grid xs:sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6  ml-[17.8rem] mr-[12.75rem] " >
 
                 <img className="w-[15rem] h-[17rem] pt-9 pl-[57px] pb-[189px]" src={img1} alt="Shoes" />
                 <img className="w-[15rem] h-[17rem] pt-9 pl-[57px] pb-[189px]" src={img2} alt="Shoes" />
