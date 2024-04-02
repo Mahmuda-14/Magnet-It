@@ -7,7 +7,7 @@ const Product = () => {
     return (
         <div id='product' className='h-[105vh]'>
             <h2 className='text-center text-4xl font-bold p-9 mt-[8rem] mb-[12.5rem]'>Recent<span className="text-blue-800"> Developed</span>  Products</h2>
-            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mx-auto max-w-screen-2xl">
+            <div className="grid grid-cols-2 gap-8 mx-auto max-w-screen-2xl">
                
                 <div className="">
                     <div className="card cardProduct   ">
@@ -21,7 +21,7 @@ const Product = () => {
                 </div>
 
 
-                <div className="grid md:grid-cols-1 lg:grid-cols-1  gap-2 mr-[113px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mr-[113px]">
                     
                     <div className="card cardProduct34 -left-[52px]">
                         <img src={p2} alt="Shoes" />
@@ -43,7 +43,7 @@ const Product = () => {
 
                     <div className="card cardProduct23 ">
                         <img src={p4} alt="Shoes" />
-                        <div className="card-body content23 bg-slate-100 mx-36 mt-9">
+                        <div className="card-body content23 bg-slate-100 mx-36 mt-">
                             <h2 className="card-title  text-blue-900 text-2xl">SSP International</h2>
                             <p>SSP are experts in creating and running food outlets for people on the move across the world. SSP look to bring a sense of place to the food and beverages they offer. </p>
                            
